@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
-    "@react-three/drei": "^9.98.0",
+    "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
     "framer-motion": "^11.0.5",
     "maath": "^0.10.7",
