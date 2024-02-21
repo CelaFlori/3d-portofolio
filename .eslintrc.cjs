@@ -17,5 +17,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "react/no-unknown-property": ["error", { "ignore": ["intensity", "groundColor", "object", 'geometry', 'material', 'position', 'rotation', 'dispose'] }],
+    'react/react-in-jsx-scope': 'off',
+    'no-unused-vars': ['error', { varsIgnorePattern: 'React' }],
+    'react/prop-types': 'off',
+    camelcase: 'error', // Enforces camelCase
+    'react/jsx-pascal-case': ['error', { allowAllCaps: true, ignore: [] }], // Enforces PascalCase for components
   },
 }
