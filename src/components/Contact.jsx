@@ -8,6 +8,10 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from "../utils/motion.js";
 import loader from "./Loader.jsx";
 
+// e2chR_ScRGI4kbwsR
+// service_m8sr7bq
+// template_cbcd03l
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -15,11 +19,46 @@ const Contact = () => {
     email: '',
     message: '',
   });
-  const [leading, setLeading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+        'service_m8sr7bq', 'template_cbcd03l',
+        {
+          from_name: form.name,
+          to_name: 'Flori',
+          from_email: form.email,
+          to_email: 'floricela999@gmail.com',
+          message: form.message,
+        },
+        'e2chR_ScRGI4kbwsR'
+    )
+        .then(() => {
+          setLoading(false);
+          alert('Thank you.I will get back to you as soon as possible.');
+
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          })
+        }, (error) => {
+          setLoading(false)
+
+          console.log(error);
+
+          alert('Something went wrong.')
+            })
+  }
   return (
   <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
     <motion.div
@@ -71,9 +110,16 @@ const Contact = () => {
         type='submit'
         className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
         >
-          {loader ? 'Sending...' : 'Send'}
+          {loading ? 'Sending...' : 'Send'}
         </button>
       </form>
+    </motion.div>
+
+    <motion.div
+    variants={slideIn('right', 'tween', 0.2, 1)}
+    className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+    >
+      <EarthCanvas />
     </motion.div>
   </div>
   );
