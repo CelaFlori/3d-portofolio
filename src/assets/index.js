@@ -29,9 +29,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import granitLogo from "./company/granitLogo.png";
+import TeslaCloneSC from './TeslaCloneSC.png'
+import RestaurantSC from './RestaurantSC.png'
+import WhatsAppCloneSC from './WhatsAppCloneSC.png'
 
 export {
   logo,
+    WhatsAppCloneSC,
+    RestaurantSC,
+    TeslaCloneSC,
+  granitLogo,
   backend,
   creator,
   mobile,

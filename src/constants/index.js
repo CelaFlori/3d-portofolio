@@ -16,6 +16,7 @@ import {
     figma,
     docker,
     meta,
+    granitLogo,
     starbucks,
     tesla,
     shopify,
@@ -23,6 +24,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    TeslaCloneSC,
+    RestaurantSC, WhatsAppCloneSC,
 } from "../assets";
 
 export const navLinks = [
@@ -48,10 +51,6 @@ const services = [
     {
         title: "React Native Developer",
         icon: mobile,
-    },
-    {
-        title: "Backend Developer",
-        icon: backend,
     },
     {
         title: "Content Creator",
@@ -81,20 +80,12 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
     },
     {
         name: "Three JS",
@@ -104,62 +95,16 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
+
 ];
 
 const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "GranIt",
+        icon: granitLogo,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "September 2023 - February 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,58 +143,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Tesla Clone",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web application that clones Tesla's site. It shows the types of cars that Tesla has, the costs and benefits that Tesla has. This site is very easy to use even for those who do not know how to use technology well.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "BrowserRouter",
                 color: "green-text-gradient",
             },
             {
@@ -257,8 +160,50 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: TeslaCloneSC,
+        source_code_link: "https://github.com/FloriCela111",
+    },
+    {
+        name: "Restaurant Website",
+        description:
+            "This website can help restaurants a lot in online customer management. The online restaurant contains the menu and the way to contact the restaurant service. It makes managing customers easier.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "BrowserRouter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: RestaurantSC,
+        source_code_link: "https://github.com/FloriCela111",
+    },
+    {
+        name: "WhatsApp Clone",
+        description:
+            "Web application that clones the WhatsApp page.In this application you can message to everyone, you can share to them videos,photos, voice message as well.Simple to WhatsApp and is really easy as well. ",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "BrowserRouter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: WhatsAppCloneSC,
+        source_code_link: "https://github.com/FloriCela111",
     },
 ];
 
