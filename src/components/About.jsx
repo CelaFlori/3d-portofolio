@@ -37,15 +37,30 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-        <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
-        </motion.p>
+          <motion.p variants={fadeIn('', '', 0.1, 1)}
+                    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+              As a Frontend Developer, I've specialized in creating exceptional user experiences and intuitive
+              interfaces across various digital platforms. My journey has equipped me with a robust set of skills,
+              centered around React.js, that enables me to bring creative solutions to life, enhancing user engagement
+              and satisfaction.
+              <br/>
+              <br/>
+              My experience spans developing a pioneering online betting platform, which revolutionized the
+              digitalization of ticket games, allowing users to engage across multiple categories seamlessly.
+              Additionally, I played a key role in the development of a cross-platform lottery app, showcasing my
+              ability to adapt and innovate within the tech space.
+              <br/>
+              <br/>
+              Working within Agile frameworks, I've contributed to dynamic teams, embracing change to maximize project
+              value and efficiency. My technical toolkit includes React.js, Postman API, among over 20 other skills,
+              allowing me to tackle complex challenges and drive forward with effective, user-centric solutions.
+              <br/>
+              <br/>
+              I'm passionate about leveraging technology to create meaningful, impactful digital experiences. Let's
+              connect to explore how we can create something remarkable together.
+          </motion.p>
 
-        <div className='mt-20 flex flex-wrap gap-10'>
+          <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index) => (
               <ServiceCard key={service.title} index={index} {...service} />
           ))}

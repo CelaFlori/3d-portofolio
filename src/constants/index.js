@@ -13,7 +13,7 @@ import {
     granitLogo,
     threejs,
     TeslaCloneSC,
-    RestaurantSC, WhatsAppCloneSC,
+    RestaurantSC, WhatsAppCloneSC, redux,
 } from "../assets";
 
 export const navLinks = [
@@ -36,14 +36,14 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    // {
+    //     title: "React Native Developer",
+    //     icon: mobile,
+    // },
+    // {
+    //     title: "Content Creator",
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -66,6 +66,9 @@ const technologies = [
     {
         name: "React JS",
         icon: reactjs,
+    },{
+        name: "Redux",
+        icon: redux,
     },
     {
         name: "Tailwind CSS",
