@@ -11,6 +11,7 @@ import {
     nodejs,
     git,
     granitLogo,
+    infiniteLogo,
     threejs,
     TeslaCloneSC,
     RestaurantSC, WhatsAppCloneSC, redux,
@@ -89,18 +90,39 @@ const technologies = [
 
 ];
 
+function getCurrentMonthAndYear(language = 'en-US', timeZone = 'UTC') {
+    const currentDate = new Date();
+    const options = {
+        month: 'long',
+        year: 'numeric',
+        timeZone: timeZone
+    };
+    return currentDate.toLocaleDateString(language, options);
+}
+
+
 const experiences = [
     {
-        title: "React.js Developer",
+        title: "Frontend Developer",
         company_name: "GranIt",
         icon: granitLogo,
         iconBg: "#383E56",
-        date: "September 2023 - February 2024",
+        date: `September 2023 - ${getCurrentMonthAndYear()} (Present) `,
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Online betting platform for digitalisation of ticket games to play online in different categories.",
+            "React development for a cross-platform lottery app",
+            "Worked in an Agile managed project."
+        ],
+    },
+    {
+        title: "Frontend Developer",
+        company_name: "Infinite Digital",
+        icon: infiniteLogo,
+        iconBg: "#383E56",
+        date: `November 2022 - September 2024`,
+        points: [
+            "Responsive web applications, focusing on delivering high-quality user experiences. ",
+            "Utilizing React.js as my primary framework, I built dynamic user interfaces that were both intuitive and engaging.",
         ],
     },
 ];

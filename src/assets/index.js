@@ -20,6 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import granitLogo from "./company/granitLogo.jpg";
+import infiniteLogo from "./company/infiniteLogo.jpeg";
 import TeslaCloneSC from './TeslaCloneSC.jpg'
 import RestaurantSC from './RestaurantSC.jpg'
 import WhatsAppCloneSC from './WhatsAppCloneSC.jpg'
@@ -30,6 +31,7 @@ export {
     RestaurantSC,
     TeslaCloneSC,
   granitLogo,
+  infiniteLogo,
   backend,
   creator,
   mobile,
