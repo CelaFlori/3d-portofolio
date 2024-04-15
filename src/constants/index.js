@@ -119,7 +119,7 @@ const experiences = [
         company_name: "Infinite Digital",
         icon: infiniteLogo,
         iconBg: "#383E56",
-        date: `November 2022 - September 2024`,
+        date: `November 2022 - September 2023`,
         points: [
             "Responsive web applications, focusing on delivering high-quality user experiences. ",
             "Utilizing React.js as my primary framework, I built dynamic user interfaces that were both intuitive and engaging.",
