@@ -107,7 +107,7 @@ const experiences = [
         company_name: "GranIt",
         icon: granitLogo,
         iconBg: "#383E56",
-        date: `September 2023 - ${getCurrentMonthAndYear()} (Present) `,
+        date: `June 2023 - ${getCurrentMonthAndYear()} (Present) `,
         points: [
             "Online betting platform for digitalisation of ticket games to play online in different categories.",
             "React development for a cross-platform lottery app",
@@ -119,7 +119,7 @@ const experiences = [
         company_name: "Infinite Digital",
         icon: infiniteLogo,
         iconBg: "#383E56",
-        date: `November 2022 - September 2023`,
+        date: `May 2022 - June 2023`,
         points: [
             "Responsive web applications, focusing on delivering high-quality user experiences. ",
             "Utilizing React.js as my primary framework, I built dynamic user interfaces that were both intuitive and engaging.",
