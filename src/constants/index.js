@@ -6,6 +6,7 @@ import {
     css,
     reactjs,
     tailwind,
+    mui,
     nodejs,
     git,
     granitLogo,
@@ -17,7 +18,11 @@ import {
     GymSC,
     HooBankSc,
     TravelSC,
-    RestaurantSC, redux,
+    RestaurantSC,
+    redux,
+    postcss,
+    sass,
+    next,
 } from "../assets";
 
 export const navLinks = [
@@ -71,12 +76,28 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },{
+        name: "MongoDB",
+        icon: next,
+    },
+    {
         name: "Redux",
         icon: redux,
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
+    },
+    {
+        name: "Mui",
+        icon: mui,
+    },
+    {
+        name: "PostCSS",
+        icon: postcss,
+    },
+    {
+        name: "SASS",
+        icon: sass,
     },
     {
         name: "Node JS",
@@ -86,10 +107,10 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
-    {
-        name: "git",
-        icon: git,
-    },
+    // {
+    //     name: "git",
+    //     icon: git,
+    // },
 
 ];
 

@@ -4,7 +4,6 @@ import About from "./About.jsx";
 import Experience from "./Experience.jsx";
 import Tech from "./Tech.jsx";
 import Works from "./Works.jsx";
-import Feedbacks from "./Feedbacks.jsx";
 import Contact from "./Contact.jsx";
 import StarsCanvas from "./canvas/Stars.jsx";
 import {useEffect} from "react";
