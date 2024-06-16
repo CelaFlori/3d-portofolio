@@ -1,6 +1,4 @@
 import {
-    mobile,
-    creator,
     web,
     javascript,
     typescript,
@@ -174,7 +172,7 @@ const projects = [
             },
         ],
         image: TeslaCloneSC,
-        source_code_link: "https://github.com/FloriCela111",
+        source_code_link: "https://github.com/FloriCela111/tesla-clone",
     },
     {
         name: "Restaurant Website",
@@ -195,7 +193,7 @@ const projects = [
             },
         ],
         image: RestaurantSC,
-        source_code_link: "https://github.com/FloriCela111",
+        source_code_link: "https://github.com/FloriCela111/resturant-website",
     },
     {
         name: "WhatsApp Clone",
@@ -216,7 +214,7 @@ const projects = [
             },
         ],
         image: WhatsAppCloneSC,
-        source_code_link: "https://github.com/FloriCela111",
+        source_code_link: "https://github.com/FloriCela111/WhatsApp-clone",
     },
 ];
 

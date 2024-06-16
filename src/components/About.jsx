@@ -39,7 +39,7 @@ const About = () => {
 
           <motion.p variants={fadeIn('', '', 0.1, 1)}
                     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-              As a Frontend Developer, I've specialized in creating exceptional user experiences and intuitive
+              As a Frontend Developer, I&apos;ve specialized in creating exceptional user experiences and intuitive
               interfaces across various digital platforms. My journey has equipped me with a robust set of skills,
               centered around React.js, that enables me to bring creative solutions to life, enhancing user engagement
               and satisfaction.
@@ -51,12 +51,12 @@ const About = () => {
               ability to adapt and innovate within the tech space.
               <br/>
               <br/>
-              Working within Agile frameworks, I've contributed to dynamic teams, embracing change to maximize project
+              Working within Agile frameworks, I&apos;ve contributed to dynamic teams, embracing change to maximize project
               value and efficiency. My technical toolkit includes React.js, Postman API, among over 20 other skills,
               allowing me to tackle complex challenges and drive forward with effective, user-centric solutions.
               <br/>
               <br/>
-              I'm passionate about leveraging technology to create meaningful, impactful digital experiences. Let's
+              I&apos;m passionate about leveraging technology to create meaningful, impactful digital experiences. Let&apos;s
               connect to explore how we can create something remarkable together.
           </motion.p>
 
