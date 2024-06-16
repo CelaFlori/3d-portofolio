@@ -23,13 +23,20 @@ import granitLogo from "./company/granitLogo.jpg";
 import infiniteLogo from "./company/infiniteLogo.jpeg";
 import TeslaCloneSC from './TeslaCloneSC.jpg'
 import RestaurantSC from './RestaurantSC.jpg'
-import WhatsAppCloneSC from './WhatsAppCloneSC.jpg'
-
+import Gpt3SC from './Gpt3SC.png'
+import EudycitySC from './EudycitySC.png'
+import GymSC from './GymSC.png'
+import HooBankSc from './HooBankSc.png'
+import TravelSC from './TravelSC.png'
 export {
   logo,
-    WhatsAppCloneSC,
     RestaurantSC,
     TeslaCloneSC,
+    Gpt3SC,
+    EudycitySC,
+    GymSC,
+    HooBankSc,
+    TravelSC,
   granitLogo,
   infiniteLogo,
   backend,

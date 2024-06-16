@@ -12,7 +12,12 @@ import {
     infiniteLogo,
     threejs,
     TeslaCloneSC,
-    RestaurantSC, WhatsAppCloneSC, redux,
+    Gpt3SC,
+    EudycitySC,
+    GymSC,
+    HooBankSc,
+    TravelSC,
+    RestaurantSC, redux,
 } from "../assets";
 
 export const navLinks = [
@@ -196,9 +201,9 @@ const projects = [
         source_code_link: "https://github.com/FloriCela111/resturant-website",
     },
     {
-        name: "WhatsApp Clone",
+        name: "GPT3 Website",
         description:
-            "Web application that clones the WhatsApp page.In this application you can message to everyone, you can share to them videos,photos, voice message as well.Simple to WhatsApp and is really easy as well. ",
+            "React functional components and their reusability, React file and folder structure, Fundamental #CSS properties to master flex & grid, Fundamentals of the CSS BEM Model",
         tags: [
             {
                 name: "react",
@@ -213,8 +218,92 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: WhatsAppCloneSC,
-        source_code_link: "https://github.com/FloriCela111/WhatsApp-clone",
+        image: Gpt3SC,
+        source_code_link: "https://github.com/FloriCela111/gpt3",
+    },
+    {
+        name: "HooBank Website",
+        description:
+            "React functional components and their reusability, React file and folder structure, Fundamental CSS properties to master flex, Perfectly placed media queries for satisfactory responsiveness on all devices",
+        tags: [
+            {
+                name: "vite",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "BrowserRouter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: HooBankSc,
+        source_code_link: "https://github.com/FloriCela111/HooBank",
+    },
+    {
+        name: "Gym Website",
+        description:
+            "React functional components and their reusability, React file and folder structure, Fundamental #CSS properties to master flex & grid, Fundamentals of the CSS BEM Model",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "BrowserRouter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: GymSC,
+        source_code_link: "https://github.com/FloriCela111/gym-aplication",
+    },
+    {
+        name: "Eudysity Website",
+        description:
+            "React functional components and their reusability, React file and folder structure, Fundamental CSS properties to master flex, Perfectly placed media queries for satisfactory responsiveness on all devices",
+        tags: [
+            {
+                name: "vite",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "BrowserRouter",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: EudycitySC,
+        source_code_link: "https://github.com/FloriCela111/eudisty",
+    },
+    {
+        name: "Travel Website",
+        description:
+            "Next functional components and their reusability, Next file and folder structure, Fundamental CSS properties to master flex, Perfectly placed media queries for satisfactory responsiveness on all devices.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: TravelSC,
+        source_code_link: "https://github.com/FloriCela111/travel-app",
     },
 ];
 
