@@ -137,8 +137,7 @@ const experiences = [
             "Designed and implemented responsive user interfaces using React.js and Redux, improving performance and user experience by optimizing load times and minimizing re-rendering issues.",
             "Collaborated closely with cross-functional teams in an Agile environment, participating in sprint planning, daily stand-ups, and retrospective meetings to align on project goals and ensure on-time delivery.",
             "Improved application performance by implementing code-splitting and lazy loading techniques, reducing initial load time by 20%.",
-            "Worked alongside UI/UX designers to deliver pixel-perfect designs and a seamless user experience, increasing overall customer satisfaction by 35%."
-        ],
+               ],
     },
     {
         title: "Frontend Developer",
@@ -200,7 +199,7 @@ const projects = [
             },
         ],
         image: TeslaCloneSC,
-        source_code_link: "https://github.com/FloriCela111/tesla-clone",
+        source_code_link: "https://tesla.floricela.com",
     },
     {
         name: "Restaurant Website",
@@ -221,7 +220,7 @@ const projects = [
             },
         ],
         image: RestaurantSC,
-        source_code_link: "https://github.com/FloriCela111/resturant-website",
+        source_code_link: "https://restaurant.floricela.com",
     },
     {
         name: "GPT3 Website",
@@ -242,7 +241,7 @@ const projects = [
             },
         ],
         image: Gpt3SC,
-        source_code_link: "https://github.com/FloriCela111/gpt3",
+        source_code_link: "https://gpt3.floricela.com",
     },
     {
         name: "HooBank Website",
@@ -263,7 +262,7 @@ const projects = [
             },
         ],
         image: HooBankSc,
-        source_code_link: "https://github.com/FloriCela111/HooBank",
+        source_code_link: "https://hoobank.floricela.com",
     },
     {
         name: "Gym Website",
@@ -284,7 +283,7 @@ const projects = [
             },
         ],
         image: GymSC,
-        source_code_link: "https://github.com/FloriCela111/gym-aplication",
+        source_code_link: "https://gym.floricela.com",
     },
     {
         name: "Eudysity Website",
@@ -305,7 +304,7 @@ const projects = [
             },
         ],
         image: EudycitySC,
-        source_code_link: "https://github.com/FloriCela111/eudisty",
+        source_code_link: "https://eudysity.floricela.com",
     },
     {
         name: "Travel Website",
@@ -326,7 +325,7 @@ const projects = [
             },
         ],
         image: TravelSC,
-        source_code_link: "https://github.com/FloriCela111/travel-app",
+        source_code_link: "https://travel.floricela.com",
     },
 ];
 
