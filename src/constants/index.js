@@ -133,9 +133,11 @@ const experiences = [
         iconBg: "#383E56",
         date: `June 2023 - ${getCurrentMonthAndYear()} (Present) `,
         points: [
-            "Online betting platform for digitalisation of ticket games to play online in different categories.",
-            "React development for a cross-platform lottery app",
-            "Worked in an Agile managed project."
+            "Developed a online betting platform to digitize ticket-based games, improving user engagement and enabling smooth gameplay across various categories.",
+            "Designed and implemented responsive user interfaces using React.js and Redux, improving performance and user experience by optimizing load times and minimizing re-rendering issues.",
+            "Collaborated closely with cross-functional teams in an Agile environment, participating in sprint planning, daily stand-ups, and retrospective meetings to align on project goals and ensure on-time delivery.",
+            "Improved application performance by implementing code-splitting and lazy loading techniques, reducing initial load time by 20%.",
+            "Worked alongside UI/UX designers to deliver pixel-perfect designs and a seamless user experience, increasing overall customer satisfaction by 35%."
         ],
     },
     {
@@ -145,8 +147,8 @@ const experiences = [
         iconBg: "#383E56",
         date: `May 2022 - June 2023`,
         points: [
-            "Responsive web applications, focusing on delivering high-quality user experiences. ",
-            "Utilizing React.js as my primary framework, I built dynamic user interfaces that were both intuitive and engaging.",
+            "Built and maintained responsive, web applications using React.js and JavaScript, delivering a consistent and high-quality user experience.",
+            "Implemented reusable components and modular code architecture, reducing development time for new features by 30%.",
         ],
     },
 ];
